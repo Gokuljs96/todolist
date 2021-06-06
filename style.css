@@ -1,29 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 body{
-    background-color: lightblue;
+    background-color: rgb(25, 70, 85);
 }
 
 form{
-    background-color: darkblue;
+    background-color:  #034f84;
     width: 50%;
     color: white;
     margin: 50px auto;
     padding: 50px;
     box-sizing: border-box;
+    border: 1px solid;
+    box-shadow: 5px 10px 8px 10px #bb1010;
+    border-radius: 10px;
 }
 
 form h1{
     text-align: center;
+    font-family: 'Kaushan Script', cursive;
 }
 
 form input#todo-input{
     box-sizing: border-box;
     width: 75%;
-    height: 25px;
+    height: 45px;
     padding-left: 25px;
+    color: gainsboro;
+    background-color: firebrick;
 }
 
 #add-item{
-    height: 25px;
+    height: 45px;
     width: 25%;
     background-color: red;
     color: white;
@@ -35,6 +42,7 @@ ul {
     list-style-position: outside;
     margin: 0;
     padding: 25px 0;
+    cursor: pointer;
 }
 li{
     display: flex;
@@ -43,15 +51,26 @@ li{
 }
 
 .delete-item{
-    background-color: yellow;
+    background-color: red;
     border-radius: 5px;
     border:none;
-    color: black;
+    color: rgb(199, 174, 174);
     width: 50px;
     text-align: center;
 }
 
 .delete-item:hover{
-    background-color: orange;
+    background-color: rgb(223, 214, 199);
     width: 55px;
+    color: rgb(158, 24, 24);
+}
+p{
+    color: #034f84;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Kaushan Script', cursive;
+}
+span{
+    color: honeydew;
+    font-family: 'Kaushan Script', cursive;
 }
